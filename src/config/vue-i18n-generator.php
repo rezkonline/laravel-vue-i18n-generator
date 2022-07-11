@@ -13,6 +13,8 @@ return [
 
     'langPath' => '/resources/lang',
 
+    'namespace' => 'translation',
+
     /*
     |--------------------------------------------------------------------------
     | Laravel translation files
@@ -23,12 +25,7 @@ return [
     |
     */
 
-    'langFiles' => [
-        /*
-        'pagination',
-        'passwords'
-        */
-    ],
+    'langFiles' => [],
 
     /*
     |--------------------------------------------------------------------------
@@ -38,13 +35,7 @@ return [
     | Exclude translation files, generic files or folders you don't need.
     |
     */
-    'excludes' => [
-        /*
-        'validation',
-        'example.file',
-        'example-folder',
-        */
-    ],
+    'excludes' => [],
 
     /*
     |--------------------------------------------------------------------------
